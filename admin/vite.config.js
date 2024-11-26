@@ -9,7 +9,7 @@ export default defineConfig({
   server: {port: 5176},
   build: {
     rollupOptions: {
-      external: ["react-router-dom", "Routes", "Route", /node_modules/]
+      external: ["react-router-dom", "react-toastify", "Routes", "Route", "ToastContainer", /node_modules/]
     }
   }
 })
