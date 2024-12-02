@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import axios from 'axios'
 import { assets } from '../assets/assets'
 import {backendUrl} from '../App'
-import { toast } from 'react-toastify'
+// import { toast } from 'react-toastify'
 
 const Add = ({token}) => {
   const [image1,setImage1] = useState(false)
